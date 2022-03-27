@@ -19,7 +19,7 @@ btn4.pack()
 btn5 = Button(root, fg="red",bg="yellow",text="button5")#버튼크기 조절, 그냥 버튼 크기 조절(고정크기)
 btn5.pack()
 
-photo = PhotoImage(file="python_gui/img.png")#이미지로 버튼 표현
+photo = PhotoImage(file="python_gui/img1.png")#이미지로 버튼 표현
 btn6 = Button(root, image = photo)
 btn6.pack()
 
