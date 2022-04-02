@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Beobsung GUI")
-root.geometry("640x480+300+100")
+root.geometry("640x480")
 
 chkvar = IntVar()  # chkvar에 int형으로 저장한다.
 chkbox = Checkbutton(root, text="오늘하루 보지 않기", variable=chkvar)

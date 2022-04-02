@@ -3,7 +3,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Beobsung GUI")
-root.geometry("640x480+300+100")
+root.geometry("640x480")
 
 
 listbox = Listbox(root, selectmode="extended", height=0)

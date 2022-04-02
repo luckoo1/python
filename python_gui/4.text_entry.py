@@ -3,7 +3,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Beobsung GUI")
-root.geometry("640x480+300+100")
+root.geometry("640x480")
 
 txt = Text(root,width=30,height =5) #비어있는 텍스트 위젯만들기
 txt.pack()
